@@ -11,7 +11,7 @@ import SwiftUI
 struct TrainlyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskBar()
         }
     }
 }

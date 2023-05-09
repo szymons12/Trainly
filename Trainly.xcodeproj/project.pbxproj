@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7481BFD52A0A3B3600E7E605 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481BFD42A0A3B3600E7E605 /* ShopView.swift */; };
+		7481BFD92A0A5B4800E7E605 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481BFD82A0A5B4800E7E605 /* ExercisesView.swift */; };
+		7487127429FE84D4005313AA /* ShopIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7487127329FE84D4005313AA /* ShopIcon.swift */; };
+		7487127629FE8933005313AA /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7487127529FE8933005313AA /* TestView.swift */; };
+		7488501E2A003E6200F8BC47 /* StatsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488501D2A003E6200F8BC47 /* StatsIcon.swift */; };
+		748850202A00440F00F8BC47 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488501F2A00440F00F8BC47 /* Background.swift */; };
+		748850252A03AB7D00F8BC47 /* CentrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850242A03AB7D00F8BC47 /* CentrumView.swift */; };
+		748850272A03ADBC00F8BC47 /* TrainLvl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850262A03ADBC00F8BC47 /* TrainLvl.swift */; };
+		7488502A2A03B26800F8BC47 /* TrainingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850292A03B26800F8BC47 /* TrainingsModel.swift */; };
+		7488502C2A03B50A00F8BC47 /* TrainingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488502B2A03B50A00F8BC47 /* TrainingsData.swift */; };
+		7488502F2A03B61E00F8BC47 /* Tescik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488502E2A03B61E00F8BC47 /* Tescik.swift */; };
+		748850332A03D7A200F8BC47 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850322A03D7A200F8BC47 /* Block.swift */; };
+		748850352A04FBE800F8BC47 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850342A04FBE800F8BC47 /* SlideView.swift */; };
+		748850372A051AA100F8BC47 /* SettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850362A051AA100F8BC47 /* SettingsIcon.swift */; };
 		74BFA8CB29F587D300F0016C /* TrainlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFA8CA29F587D300F0016C /* TrainlyApp.swift */; };
 		74BFA8CD29F587D300F0016C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFA8CC29F587D300F0016C /* ContentView.swift */; };
 		74BFA8CF29F587D500F0016C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BFA8CE29F587D500F0016C /* Assets.xcassets */; };
@@ -14,6 +28,7 @@
 		74BFA8DC29F587D600F0016C /* TrainlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFA8DB29F587D600F0016C /* TrainlyTests.swift */; };
 		74BFA8E629F587D600F0016C /* TrainlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFA8E529F587D600F0016C /* TrainlyUITests.swift */; };
 		74BFA8E829F587D600F0016C /* TrainlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFA8E729F587D600F0016C /* TrainlyUITestsLaunchTests.swift */; };
+		74BFA8F829F589D000F0016C /* TaskBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFA8F729F589D000F0016C /* TaskBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7481BFD42A0A3B3600E7E605 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		7481BFD82A0A5B4800E7E605 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
+		7487127329FE84D4005313AA /* ShopIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopIcon.swift; sourceTree = "<group>"; };
+		7487127529FE8933005313AA /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		7488501D2A003E6200F8BC47 /* StatsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsIcon.swift; sourceTree = "<group>"; };
+		7488501F2A00440F00F8BC47 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		748850242A03AB7D00F8BC47 /* CentrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentrumView.swift; sourceTree = "<group>"; };
+		748850262A03ADBC00F8BC47 /* TrainLvl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainLvl.swift; sourceTree = "<group>"; };
+		748850292A03B26800F8BC47 /* TrainingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsModel.swift; sourceTree = "<group>"; };
+		7488502B2A03B50A00F8BC47 /* TrainingsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsData.swift; sourceTree = "<group>"; };
+		7488502E2A03B61E00F8BC47 /* Tescik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tescik.swift; sourceTree = "<group>"; };
+		748850322A03D7A200F8BC47 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		748850342A04FBE800F8BC47 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		748850362A051AA100F8BC47 /* SettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIcon.swift; sourceTree = "<group>"; };
 		74BFA8C729F587D300F0016C /* Trainly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BFA8CA29F587D300F0016C /* TrainlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainlyApp.swift; sourceTree = "<group>"; };
 		74BFA8CC29F587D300F0016C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +73,7 @@
 		74BFA8E129F587D600F0016C /* TrainlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BFA8E529F587D600F0016C /* TrainlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainlyUITests.swift; sourceTree = "<group>"; };
 		74BFA8E729F587D600F0016C /* TrainlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74BFA8F729F589D000F0016C /* TaskBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +101,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7481BFD32A0A3AE600E7E605 /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				7487127329FE84D4005313AA /* ShopIcon.swift */,
+				7481BFD42A0A3B3600E7E605 /* ShopView.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		7481BFD62A0A3D3600E7E605 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				7488501D2A003E6200F8BC47 /* StatsIcon.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		7481BFD72A0A5B0900E7E605 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				7481BFD82A0A5B4800E7E605 /* ExercisesView.swift */,
+			);
+			path = Exercises;
+			sourceTree = "<group>";
+		};
+		7487127229FE8476005313AA /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				748850232A03AB3600F8BC47 /* Centrum */,
+				7481BFD32A0A3AE600E7E605 /* Shop */,
+				7481BFD62A0A3D3600E7E605 /* Stats */,
+				7488501F2A00440F00F8BC47 /* Background.swift */,
+				748850362A051AA100F8BC47 /* SettingsIcon.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		748850232A03AB3600F8BC47 /* Centrum */ = {
+			isa = PBXGroup;
+			children = (
+				748850242A03AB7D00F8BC47 /* CentrumView.swift */,
+				748850262A03ADBC00F8BC47 /* TrainLvl.swift */,
+				748850322A03D7A200F8BC47 /* Block.swift */,
+				748850342A04FBE800F8BC47 /* SlideView.swift */,
+			);
+			path = Centrum;
+			sourceTree = "<group>";
+		};
+		748850282A03AF7600F8BC47 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				748850292A03B26800F8BC47 /* TrainingsModel.swift */,
+				7488502B2A03B50A00F8BC47 /* TrainingsData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7488502D2A03B60C00F8BC47 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				7487127529FE8933005313AA /* TestView.swift */,
+				7488502E2A03B61E00F8BC47 /* Tescik.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		74BFA8BE29F587D300F0016C = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +190,7 @@
 		74BFA8C929F587D300F0016C /* Trainly */ = {
 			isa = PBXGroup;
 			children = (
+				74BFA8F429F5881600F0016C /* MainView */,
 				74BFA8CA29F587D300F0016C /* TrainlyApp.swift */,
 				74BFA8CC29F587D300F0016C /* ContentView.swift */,
 				74BFA8CE29F587D500F0016C /* Assets.xcassets */,
@@ -125,6 +222,18 @@
 				74BFA8E729F587D600F0016C /* TrainlyUITestsLaunchTests.swift */,
 			);
 			path = TrainlyUITests;
+			sourceTree = "<group>";
+		};
+		74BFA8F429F5881600F0016C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7481BFD72A0A5B0900E7E605 /* Exercises */,
+				7488502D2A03B60C00F8BC47 /* Test */,
+				748850282A03AF7600F8BC47 /* Data */,
+				7487127229FE8476005313AA /* HomeView */,
+				74BFA8F729F589D000F0016C /* TaskBar.swift */,
+			);
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +366,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748850272A03ADBC00F8BC47 /* TrainLvl.swift in Sources */,
+				74BFA8F829F589D000F0016C /* TaskBar.swift in Sources */,
+				748850332A03D7A200F8BC47 /* Block.swift in Sources */,
+				7488502C2A03B50A00F8BC47 /* TrainingsData.swift in Sources */,
+				7481BFD92A0A5B4800E7E605 /* ExercisesView.swift in Sources */,
+				748850202A00440F00F8BC47 /* Background.swift in Sources */,
+				7487127629FE8933005313AA /* TestView.swift in Sources */,
+				7488501E2A003E6200F8BC47 /* StatsIcon.swift in Sources */,
 				74BFA8CD29F587D300F0016C /* ContentView.swift in Sources */,
+				748850352A04FBE800F8BC47 /* SlideView.swift in Sources */,
+				748850252A03AB7D00F8BC47 /* CentrumView.swift in Sources */,
+				7488502A2A03B26800F8BC47 /* TrainingsModel.swift in Sources */,
 				74BFA8CB29F587D300F0016C /* TrainlyApp.swift in Sources */,
+				7488502F2A03B61E00F8BC47 /* Tescik.swift in Sources */,
+				748850372A051AA100F8BC47 /* SettingsIcon.swift in Sources */,
+				7481BFD52A0A3B3600E7E605 /* ShopView.swift in Sources */,
+				7487127429FE84D4005313AA /* ShopIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
