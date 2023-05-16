@@ -18,7 +18,6 @@
 		7488502A2A03B26800F8BC47 /* TrainingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850292A03B26800F8BC47 /* TrainingsModel.swift */; };
 		7488502C2A03B50A00F8BC47 /* TrainingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488502B2A03B50A00F8BC47 /* TrainingsData.swift */; };
 		7488502F2A03B61E00F8BC47 /* Tescik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488502E2A03B61E00F8BC47 /* Tescik.swift */; };
-		748850332A03D7A200F8BC47 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850322A03D7A200F8BC47 /* Block.swift */; };
 		748850352A04FBE800F8BC47 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850342A04FBE800F8BC47 /* SlideView.swift */; };
 		748850372A051AA100F8BC47 /* SettingsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850362A051AA100F8BC47 /* SettingsIcon.swift */; };
 		74BFA8CB29F587D300F0016C /* TrainlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BFA8CA29F587D300F0016C /* TrainlyApp.swift */; };
@@ -60,7 +59,6 @@
 		748850292A03B26800F8BC47 /* TrainingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsModel.swift; sourceTree = "<group>"; };
 		7488502B2A03B50A00F8BC47 /* TrainingsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsData.swift; sourceTree = "<group>"; };
 		7488502E2A03B61E00F8BC47 /* Tescik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tescik.swift; sourceTree = "<group>"; };
-		748850322A03D7A200F8BC47 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		748850342A04FBE800F8BC47 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
 		748850362A051AA100F8BC47 /* SettingsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsIcon.swift; sourceTree = "<group>"; };
 		74BFA8C729F587D300F0016C /* Trainly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +141,6 @@
 			children = (
 				748850242A03AB7D00F8BC47 /* CentrumView.swift */,
 				748850262A03ADBC00F8BC47 /* TrainLvl.swift */,
-				748850322A03D7A200F8BC47 /* Block.swift */,
 				748850342A04FBE800F8BC47 /* SlideView.swift */,
 			);
 			path = Centrum;
@@ -368,7 +365,6 @@
 			files = (
 				748850272A03ADBC00F8BC47 /* TrainLvl.swift in Sources */,
 				74BFA8F829F589D000F0016C /* TaskBar.swift in Sources */,
-				748850332A03D7A200F8BC47 /* Block.swift in Sources */,
 				7488502C2A03B50A00F8BC47 /* TrainingsData.swift in Sources */,
 				7481BFD92A0A5B4800E7E605 /* ExercisesView.swift in Sources */,
 				748850202A00440F00F8BC47 /* Background.swift in Sources */,

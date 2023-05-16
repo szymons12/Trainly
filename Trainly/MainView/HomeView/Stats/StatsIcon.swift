@@ -24,7 +24,7 @@ struct StatsIcon: View {
                
         })
             .fullScreenCover(isPresented: $showSheet, content: {
-                TestView()
+                ExercisesView(exer: Casual[0])
             })
 
     }

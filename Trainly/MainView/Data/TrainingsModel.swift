@@ -12,12 +12,14 @@ class CasualTraining: Identifiable {
     var id = UUID()
     var exercise: String
     var image: String
-    var time: TimeInterval
+    var time: Int
     
-    init(exercise: String, image: String, time: TimeInterval ){
+    init(exercise: String, image: String, time: Int ){
         self.exercise = exercise
         self.image = image
         self.time = time
         
     }
 }
+
+
