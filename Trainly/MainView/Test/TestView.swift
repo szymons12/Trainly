@@ -8,29 +8,11 @@
 import SwiftUI
 
 struct TestView: View {
-    @State private var isShowingFirstView = false
-        @State private var isShowingSecondView = false
     var body: some View {
         ZStack{
-            HStack{
-                Button("Pokaż napis 1") {
-                                self.isShowingFirstView = true
-                            }
-                            
-                            Button("Pokaż napis 2") {
-                                self.isShowingSecondView = true
-                            }
-            }
+            Color.black.ignoresSafeArea()
             
-            VStack{
-                if isShowingFirstView {
-                    SlideView()
-                }
-                
-                if isShowingSecondView{
-                    SettingsIcon()
-                }
-            }
+            CentrumView()
         }
     }
 }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7463C9152A1611C30080B54E /* PointsNumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C9142A1611C30080B54E /* PointsNumView.swift */; };
+		7463C9172A16B0410080B54E /* CoinNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C9162A16B0410080B54E /* CoinNumber.swift */; };
+		7463C9192A16C28A0080B54E /* FavIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C9182A16C28A0080B54E /* FavIconView.swift */; };
+		7463C91B2A1758DE0080B54E /* MainHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C91A2A1758DE0080B54E /* MainHomeView.swift */; };
+		7463C91D2A1773E80080B54E /* YourCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C91C2A1773E80080B54E /* YourCoinView.swift */; };
 		7481BFD52A0A3B3600E7E605 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481BFD42A0A3B3600E7E605 /* ShopView.swift */; };
 		7481BFD92A0A5B4800E7E605 /* ExercisesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481BFD82A0A5B4800E7E605 /* ExercisesView.swift */; };
 		7487127429FE84D4005313AA /* ShopIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7487127329FE84D4005313AA /* ShopIcon.swift */; };
@@ -14,7 +19,6 @@
 		7488501E2A003E6200F8BC47 /* StatsIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488501D2A003E6200F8BC47 /* StatsIcon.swift */; };
 		748850202A00440F00F8BC47 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488501F2A00440F00F8BC47 /* Background.swift */; };
 		748850252A03AB7D00F8BC47 /* CentrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850242A03AB7D00F8BC47 /* CentrumView.swift */; };
-		748850272A03ADBC00F8BC47 /* TrainLvl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850262A03ADBC00F8BC47 /* TrainLvl.swift */; };
 		7488502A2A03B26800F8BC47 /* TrainingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748850292A03B26800F8BC47 /* TrainingsModel.swift */; };
 		7488502C2A03B50A00F8BC47 /* TrainingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488502B2A03B50A00F8BC47 /* TrainingsData.swift */; };
 		7488502F2A03B61E00F8BC47 /* Tescik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488502E2A03B61E00F8BC47 /* Tescik.swift */; };
@@ -48,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7463C9142A1611C30080B54E /* PointsNumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsNumView.swift; sourceTree = "<group>"; };
+		7463C9162A16B0410080B54E /* CoinNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNumber.swift; sourceTree = "<group>"; };
+		7463C9182A16C28A0080B54E /* FavIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavIconView.swift; sourceTree = "<group>"; };
+		7463C91A2A1758DE0080B54E /* MainHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHomeView.swift; sourceTree = "<group>"; };
+		7463C91C2A1773E80080B54E /* YourCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCoinView.swift; sourceTree = "<group>"; };
 		7481BFD42A0A3B3600E7E605 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		7481BFD82A0A5B4800E7E605 /* ExercisesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesView.swift; sourceTree = "<group>"; };
 		7487127329FE84D4005313AA /* ShopIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopIcon.swift; sourceTree = "<group>"; };
@@ -55,7 +64,6 @@
 		7488501D2A003E6200F8BC47 /* StatsIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsIcon.swift; sourceTree = "<group>"; };
 		7488501F2A00440F00F8BC47 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		748850242A03AB7D00F8BC47 /* CentrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentrumView.swift; sourceTree = "<group>"; };
-		748850262A03ADBC00F8BC47 /* TrainLvl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainLvl.swift; sourceTree = "<group>"; };
 		748850292A03B26800F8BC47 /* TrainingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsModel.swift; sourceTree = "<group>"; };
 		7488502B2A03B50A00F8BC47 /* TrainingsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingsData.swift; sourceTree = "<group>"; };
 		7488502E2A03B61E00F8BC47 /* Tescik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tescik.swift; sourceTree = "<group>"; };
@@ -104,6 +112,7 @@
 			children = (
 				7487127329FE84D4005313AA /* ShopIcon.swift */,
 				7481BFD42A0A3B3600E7E605 /* ShopView.swift */,
+				7463C91C2A1773E80080B54E /* YourCoinView.swift */,
 			);
 			path = Shop;
 			sourceTree = "<group>";
@@ -132,6 +141,7 @@
 				7481BFD62A0A3D3600E7E605 /* Stats */,
 				7488501F2A00440F00F8BC47 /* Background.swift */,
 				748850362A051AA100F8BC47 /* SettingsIcon.swift */,
+				7463C91A2A1758DE0080B54E /* MainHomeView.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -140,8 +150,10 @@
 			isa = PBXGroup;
 			children = (
 				748850242A03AB7D00F8BC47 /* CentrumView.swift */,
-				748850262A03ADBC00F8BC47 /* TrainLvl.swift */,
 				748850342A04FBE800F8BC47 /* SlideView.swift */,
+				7463C9142A1611C30080B54E /* PointsNumView.swift */,
+				7463C9162A16B0410080B54E /* CoinNumber.swift */,
+				7463C9182A16C28A0080B54E /* FavIconView.swift */,
 			);
 			path = Centrum;
 			sourceTree = "<group>";
@@ -363,17 +375,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748850272A03ADBC00F8BC47 /* TrainLvl.swift in Sources */,
 				74BFA8F829F589D000F0016C /* TaskBar.swift in Sources */,
 				7488502C2A03B50A00F8BC47 /* TrainingsData.swift in Sources */,
+				7463C9152A1611C30080B54E /* PointsNumView.swift in Sources */,
 				7481BFD92A0A5B4800E7E605 /* ExercisesView.swift in Sources */,
 				748850202A00440F00F8BC47 /* Background.swift in Sources */,
 				7487127629FE8933005313AA /* TestView.swift in Sources */,
+				7463C9172A16B0410080B54E /* CoinNumber.swift in Sources */,
 				7488501E2A003E6200F8BC47 /* StatsIcon.swift in Sources */,
 				74BFA8CD29F587D300F0016C /* ContentView.swift in Sources */,
 				748850352A04FBE800F8BC47 /* SlideView.swift in Sources */,
+				7463C91D2A1773E80080B54E /* YourCoinView.swift in Sources */,
 				748850252A03AB7D00F8BC47 /* CentrumView.swift in Sources */,
 				7488502A2A03B26800F8BC47 /* TrainingsModel.swift in Sources */,
+				7463C9192A16C28A0080B54E /* FavIconView.swift in Sources */,
+				7463C91B2A1758DE0080B54E /* MainHomeView.swift in Sources */,
 				74BFA8CB29F587D300F0016C /* TrainlyApp.swift in Sources */,
 				7488502F2A03B61E00F8BC47 /* Tescik.swift in Sources */,
 				748850372A051AA100F8BC47 /* SettingsIcon.swift in Sources */,

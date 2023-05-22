@@ -9,12 +9,20 @@ import Foundation
 
 var Casual: [CasualTraining] = [
 
-    CasualTraining(exercise: "Plank", image: "plank", time: 60),
-    CasualTraining(exercise: "Push-up", image: "push-up", time: 15),
-    CasualTraining(exercise: "Side-plank", image: "side-plank", time: 60),
-    CasualTraining(exercise: "Sit-up", image: "sit-up", time: 40),
-    CasualTraining(exercise: "Dip-lunge", image: "dip-lunge", time: 20)
+    CasualTraining(exercise: "Belly", image: "belly", time: 60,rep: 3),
+    CasualTraining(exercise: "Push-up", image: "push-up", time: 15,rep: 3),
+    CasualTraining(exercise: "Side-plank", image: "side-plank", time: 60,rep: 2),
+    CasualTraining(exercise: "Sit-up", image: "sit-up", time: 40,rep: 2),
+    CasualTraining(exercise: "Dip-lunge", image: "dip-lunge", time: 20,rep: 3)
 
 
 ]
 
+var Bell: [BellyEx] = [
+
+BellyEx(exercise: "Plank", images: "plank", time: 30),
+BellyEx(exercise: "Bridge", images: "bridge", time: 30),
+BellyEx(exercise: "Revers", images: "revers", time: 30),
+BellyEx(exercise: "Reversecrunches", images: "reversecrunches", time: 30)
+
+]

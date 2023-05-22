@@ -14,12 +14,35 @@ struct StatsIcon: View {
             showSheet.toggle()
        }, label: {
            
-           Image(systemName: "chart.xyaxis.line")
-               .foregroundColor(Color.white)
-               .font(.largeTitle)
+           RoundedRectangle(cornerRadius: 20)
+               .foregroundColor(Color("white"))
+               .font(.system(size: 46))
                .frame(width: 150, height: 150)
-               .background(Color.red)
-               .cornerRadius(20)
+               
+               .overlay(
+                
+                VStack {
+                    HStack(alignment: .bottom){
+                  RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 28, height: 64)
+                                .foregroundColor(Color("Color-1"))
+                            
+                  RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 28, height: 84)
+                                .foregroundColor(Color("Back"))
+                        
+                  RoundedRectangle(cornerRadius: 20)
+                            .frame(width: 28, height: 104)
+                            .foregroundColor(Color("Color-2"))
+                        
+                
+                    }
+                    Text("Stats")
+                        .font(.title3)
+                        .bold()
+                        .foregroundColor(Color("Color"))
+                }
+               )
                
                
         })

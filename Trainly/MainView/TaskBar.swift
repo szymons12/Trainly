@@ -15,13 +15,14 @@ struct TaskBar: View {
 
     var body: some View {
         ZStack{
-            Color.clear.ignoresSafeArea()
+            
+            Background()
             
             switch selectIndex{
             case 0:
-                Background()
+                MainHomeView()
             case 1:
-                Background()
+                MainHomeView()
             case 2:
                 Text("szyszka")
             default:
@@ -29,7 +30,7 @@ struct TaskBar: View {
             }
             
             VStack{
-                Spacer()
+                Spacer().frame(height:680)
                 HStack(spacing: 100){
                     ForEach(0..<3, id: \.self){
                         number in
@@ -40,14 +41,16 @@ struct TaskBar: View {
                             self.selectIndex = number
                         }, label: {
                             Image(systemName: icons[number])
-                                .foregroundColor(self.selectIndex == number ? Color.red : Color.black)
+                                .foregroundColor(self.selectIndex == number ? Color("Back") : Color("Color"))
                                })
                     }
                 } // HStack
                 
                 .padding()
                 .font(.title)
-                .foregroundColor(.black)
+                .foregroundColor(Color("Color"))
+                .background(Color("Color-1"))
+                .cornerRadius(20)
                 
                 }
             }

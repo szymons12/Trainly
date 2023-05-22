@@ -14,14 +14,27 @@ struct ShopIcon: View {
                 Button(action: {
                     showSheet.toggle()
                }, label: {
-                   
-                   Image(systemName: "cart.fill")
-                       .foregroundColor(Color.white)
-                       .font(.largeTitle)
+                  
+                   RoundedRectangle(cornerRadius: 20)
+                       .foregroundColor(Color("Color"))
+                       .font(.system(size: 46))
                        .frame(width: 150, height: 150)
-                       .background(Color.red)
-                       .cornerRadius(20)
-                       
+                       .overlay(
+                        VStack{
+                       Image(systemName: "bag")
+                                .font(.system(size: 72))
+                            
+                                
+                       Text("Shop")
+                                .font(.title3)
+                                .bold()
+                        }
+                            .foregroundColor(Color("Back"))
+                       )
+                      
+                    
+                     
+                   
                        
                 })
                     .fullScreenCover(isPresented: $showSheet, content: {

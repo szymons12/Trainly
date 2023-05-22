@@ -9,35 +9,28 @@ import SwiftUI
 
 struct Background: View {
     var body: some View {
-        ZStack{
-            VStack{
-                HStack(spacing: 280){
-              
-                    SettingsIcon()
-                  
-                    Image(systemName: "flame")
-                        .foregroundColor(Color.red)
-                        .font(.title)
-                }
-                Spacer()
-                CentrumView()
-                Spacer()
-                HStack{
-                    Spacer()
-                    ShopIcon()
-                    Spacer()
-                    StatsIcon()
-                    Spacer()
-                }
-                Spacer()
-                Spacer()
-            }
+        VStack(spacing: 0){
+            
+            Rectangle()
+                .frame(width: 390, height: 700)
+                .foregroundColor(Color("Back"))
+            
+               
+               
+            
+            
+            Rectangle()
+                .frame(width: 390, height: 492)
+                .foregroundColor(Color("Color-3"))
+            
+        }
         }
     }
-}
+
 
 struct Background_Previews: PreviewProvider {
     static var previews: some View {
         Background()
     }
 }
+
