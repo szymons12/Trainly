@@ -13,6 +13,7 @@ struct Background: View {
             
             Rectangle()
                 .frame(width: 390, height: 700)
+
                 .foregroundColor(Color("Back"))
             
                

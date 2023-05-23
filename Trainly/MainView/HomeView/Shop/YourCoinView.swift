@@ -16,7 +16,7 @@ struct YourCoinView: View {
                 HStack{
                     Text("300")
                       
-                    Image(systemName: "flame") // do dopracowania
+                    Image(systemName: "bolt.fill") // do dopracowania
                 }
                     .font(.title)
                     .foregroundColor(Color("Color"))

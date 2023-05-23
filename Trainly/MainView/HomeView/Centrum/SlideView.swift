@@ -17,10 +17,9 @@ struct SlideView: View {
                     .scaledToFill()
                     .frame(width: 350, height: 346)
                     .cornerRadius(25)
-                    
-            
-           
+       
                 .overlay(
+                    
                     VStack{
                         Spacer()
                             .frame(width: 20, height: 10)
@@ -30,12 +29,14 @@ struct SlideView: View {
                                 .font(.system(size: 45))
                                 .bold()
                                 .foregroundColor(Color.white)
+                                
                             
                             Text("\(item.time)min")
                                 .font(.system(size: 45))
                                 .bold()
                                 .foregroundColor(Color.white)
                         }
+                        .lineLimit(nil)
                         
                         VStack{
                             Spacer().frame(height: 5)
@@ -43,7 +44,7 @@ struct SlideView: View {
                             HStack{
                                     Spacer()
                                         .frame(width: 225)
-                                        PointsNumView()
+                                        TestView()
                                     
                             }
                         

@@ -14,12 +14,14 @@ class CasualTraining: Identifiable {
     var image: String
     var time: Int
     var rep: Int
+    var lvl: Int
     
-    init(exercise: String, image: String, time: Int, rep: Int ){
+    init(exercise: String, image: String, time: Int, rep: Int, lvl: Int ){
         self.exercise = exercise
         self.image = image
         self.time = time
         self.rep = rep
+        self.lvl = lvl
     }
 }
 

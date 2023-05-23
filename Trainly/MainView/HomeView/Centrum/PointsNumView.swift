@@ -14,9 +14,15 @@ struct PointsNumView: View {
             .foregroundColor(Color.white.opacity(0.5))
             .overlay(
                 HStack{
-                    Image(systemName: "flame")
-                    Image(systemName: "flame")
-                    Image(systemName: "flame")
+                    Image("fire")
+                        .renderingMode(.template)
+
+                    Image("fire")
+                        .renderingMode(.template)
+
+                    Image("fire")
+                        .renderingMode(.template)
+
                 }
                     .foregroundColor(Color.white)
                     .font(.title)

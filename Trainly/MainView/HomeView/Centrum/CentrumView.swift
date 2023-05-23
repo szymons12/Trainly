@@ -21,7 +21,8 @@ struct CentrumView: View {
                             self.show2 = false
                             self.show3 = false
                         } label: {
-                            Image(systemName: "flame")
+                            Image( "fire")
+                                .renderingMode(.template)
                                 .foregroundColor(Color("Color"))
                                 .font(.title)
                             .frame(width: 110, height: 45)
@@ -40,9 +41,14 @@ struct CentrumView: View {
                                 .foregroundColor(Color("Color-1"))
                                 .overlay(
                                     HStack{
-                                        Image(systemName: "flame")
-                                        Image(systemName: "flame")
+                                        Image( "fire")
+                                            .renderingMode(.template)
+
+                                        Image( "fire")
+                                            .renderingMode(.template)
+
                                     }
+                                    
                                         .foregroundColor(Color("Color"))
                                         .font(.title)
                                 )
@@ -58,9 +64,15 @@ struct CentrumView: View {
                                 .foregroundColor(Color("Color-2"))
                                 .overlay(
                                     HStack{
-                                        Image(systemName: "flame")
-                                        Image(systemName: "flame")
-                                        Image(systemName: "flame")
+                                        Image( "fire")
+                                            .renderingMode(.template)
+
+                                        Image( "fire")
+                                            .renderingMode(.template)
+
+                                        Image( "fire")
+                                            .renderingMode(.template)
+
                                     }
                                         .foregroundColor(Color("Color"))
                                         .font(.title)

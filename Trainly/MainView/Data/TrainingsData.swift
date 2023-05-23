@@ -9,11 +9,11 @@ import Foundation
 
 var Casual: [CasualTraining] = [
 
-    CasualTraining(exercise: "Belly", image: "belly", time: 60,rep: 3),
-    CasualTraining(exercise: "Push-up", image: "push-up", time: 15,rep: 3),
-    CasualTraining(exercise: "Side-plank", image: "side-plank", time: 60,rep: 2),
-    CasualTraining(exercise: "Sit-up", image: "sit-up", time: 40,rep: 2),
-    CasualTraining(exercise: "Dip-lunge", image: "dip-lunge", time: 20,rep: 3)
+    CasualTraining(exercise: "Belly", image: "belly", time: 60,rep: 3, lvl: 2),
+    CasualTraining(exercise: "Push-up", image: "push-up", time: 15,rep: 3, lvl: 3),
+    CasualTraining(exercise: "Side-plank", image: "side-plank", time: 60,rep: 2, lvl: 1),
+    CasualTraining(exercise: "Sit-up", image: "sit-up", time: 40,rep: 2, lvl: 2),
+    CasualTraining(exercise: "Dip-lunge", image: "dip-lunge", time: 20,rep: 3, lvl: 2)
 
 
 ]

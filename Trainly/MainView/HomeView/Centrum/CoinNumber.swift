@@ -19,7 +19,7 @@ struct CoinNumber: View {
                                     .font(.title2)
                                 Spacer()
                                     .frame(width: 5, height: 10)
-                                Image(systemName: "flame")
+                                Image(systemName: "bolt.fill")
                                     .font(.title)
                             }
                             .foregroundColor(Color.white)
