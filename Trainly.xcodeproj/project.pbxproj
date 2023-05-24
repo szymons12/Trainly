@@ -10,6 +10,7 @@
 		740001DC2A1BCECA00948249 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 740001C62A1BCECA00948249 /* Raleway-Bold.ttf */; };
 		742F2AD32A1CB9FB00A112AF /* Test2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742F2AD22A1CB9FB00A112AF /* Test2View.swift */; };
 		742F2AD52A1CBBA300A112AF /* Raleway.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 742F2AD42A1CBBA300A112AF /* Raleway.ttf */; };
+		7453E0E02A1E142500B190B0 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453E0DF2A1E142500B190B0 /* FavView.swift */; };
 		7463C9152A1611C30080B54E /* PointsNumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C9142A1611C30080B54E /* PointsNumView.swift */; };
 		7463C9172A16B0410080B54E /* CoinNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C9162A16B0410080B54E /* CoinNumber.swift */; };
 		7463C9192A16C28A0080B54E /* FavIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463C9182A16C28A0080B54E /* FavIconView.swift */; };
@@ -58,6 +59,7 @@
 		742F2AD22A1CB9FB00A112AF /* Test2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2View.swift; sourceTree = "<group>"; };
 		742F2AD42A1CBBA300A112AF /* Raleway.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Raleway.ttf; sourceTree = "<group>"; };
 		742F2AD62A1CBC3300A112AF /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		7453E0DF2A1E142500B190B0 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
 		7463C9142A1611C30080B54E /* PointsNumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsNumView.swift; sourceTree = "<group>"; };
 		7463C9162A16B0410080B54E /* CoinNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinNumber.swift; sourceTree = "<group>"; };
 		7463C9182A16C28A0080B54E /* FavIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavIconView.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				7463C9142A1611C30080B54E /* PointsNumView.swift */,
 				7463C9162A16B0410080B54E /* CoinNumber.swift */,
 				7463C9182A16C28A0080B54E /* FavIconView.swift */,
+				7453E0DF2A1E142500B190B0 /* FavView.swift */,
 			);
 			path = Centrum;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				7463C9192A16C28A0080B54E /* FavIconView.swift in Sources */,
 				742F2AD32A1CB9FB00A112AF /* Test2View.swift in Sources */,
 				7463C91B2A1758DE0080B54E /* MainHomeView.swift in Sources */,
+				7453E0E02A1E142500B190B0 /* FavView.swift in Sources */,
 				74BFA8CB29F587D300F0016C /* TrainlyApp.swift in Sources */,
 				7481BFD52A0A3B3600E7E605 /* ShopView.swift in Sources */,
 				7487127429FE84D4005313AA /* ShopIcon.swift in Sources */,

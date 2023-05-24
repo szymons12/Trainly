@@ -92,6 +92,10 @@ struct ExercisesView: View {
                             
                         }
                         
+                        else if countDownTimer == 0 {
+                            buttonText = Image(systemName: "chevron.forward")
+                                
+                        }
                         else {
                             timerRunning = false
                             buttonText = Image(systemName: "arrowtriangle.right.circle")
