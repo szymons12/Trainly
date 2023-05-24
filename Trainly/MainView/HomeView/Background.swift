@@ -12,17 +12,15 @@ struct Background: View {
         VStack(spacing: 0){
             
             Rectangle()
-                .frame(width: 390, height: 700)
-
+//                .frame(width: 390, height: 700)
+            frame(maxWidth: .infinity, maxHeight: 700)
                 .foregroundColor(Color("Back"))
             
                
                
             
             
-            Rectangle()
-                .frame(width: 390, height: 492)
-                .foregroundColor(Color("Color-3"))
+            
             
         }
         }

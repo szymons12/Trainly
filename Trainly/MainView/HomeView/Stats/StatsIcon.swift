@@ -15,9 +15,10 @@ struct StatsIcon: View {
        }, label: {
            
            RoundedRectangle(cornerRadius: 20)
-               .foregroundColor(Color("white"))
+               .foregroundColor(Color.white)
                .font(.system(size: 46))
                .frame(width: 150, height: 150)
+               .shadow(color: Color("Color-3"), radius: 10, x: 10, y:10)
                
                .overlay(
                 
@@ -47,7 +48,7 @@ struct StatsIcon: View {
                
         })
             .fullScreenCover(isPresented: $showSheet, content: {
-                ExercisesView(exer: Casual[0])
+                ExercisesView(exer: Bell[0], str: Casual[0])
             })
 
     }

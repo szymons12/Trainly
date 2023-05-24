@@ -9,7 +9,8 @@ import SwiftUI
 
 struct ExercisesView: View {
     @Environment(\.presentationMode) var presentationMode
-    @State var exer: CasualTraining
+    @State var exer: BellyEx
+    @State var str: CasualTraining
     @State var timerRunning = false
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State var countDownTimer: Int = 0
@@ -29,23 +30,45 @@ struct ExercisesView: View {
                     .padding()
                     Spacer()
                     
+                    Text(str.exercise)
+                        .font(.custom("Raleway-Medium", size: 45))
+                        .foregroundColor(Color("Color"))
+                    Spacer().frame(width: 140)
                 }
+                
                     
-                Spacer()
-                    .frame(width: 20, height: 20)
+              
                 
                 Text(exer.exercise)
                     .font(.title)
+                    .foregroundColor(Color("Color-1"))
              
                 Spacer()
                     .frame(width: 20, height: 20)
                 
-                Image(exer.image)
+                Image(exer.images)
                     .resizable()
-                    .scaledToFit()
-                    .frame(width: 400, height: 400)
+                    .frame(width: 350, height: 346)
+                    .cornerRadius(20)
+                    .shadow(color: Color("Color-3"), radius: 10, x: 10, y:10)
              Spacer()
                     .frame(width: 20, height: 20)
+                
+                
+                
+                
+                       
+                    
+                    
+                    
+                
+                    
+                    RoundedRectangle(cornerRadius: 20)
+                        .foregroundColor(Color("Color-1"))
+                        .opacity(0.2)
+                        .shadow(color: Color("Color-1"), radius: 10, x: 1, y: 1)
+                    .frame(width: 150, height: 80)
+                        .overlay(
                 Text("\(countDownTimer)").onReceive(timer) { _ in
                     if countDownTimer > 0 && timerRunning {
                         countDownTimer -= 1
@@ -53,53 +76,57 @@ struct ExercisesView: View {
                         timerRunning = false
                     }
                 }
-                .font(.largeTitle)
+                .font(.system(size: 48))
                 
                 .onAppear(perform: setCountDownTimer)
                 
-                Spacer()
-                
+                )// overlay
                 
                 HStack() {
                     
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                    
+                    Spacer().frame(width: 90)
                     Button {
                         if timerRunning == false {
                             timerRunning = true
                             buttonText = Image(systemName: "pause.circle")
                             
-                        } else {
+                        }
+                        
+                        else {
                             timerRunning = false
                             buttonText = Image(systemName: "arrowtriangle.right.circle")
                             
                         }
                     } label: {
                         Text(buttonText)
-                            .font(.system(size: 80))
-                            .foregroundColor(Color.red)
+                            .font(.system(size: 140))
+                            .foregroundColor(Color("Color"))
                             
                             
                     }
+                   
                     
                     Button {
                         countDownTimer = exer.time
                         timerRunning = false
                         // dopracuj to
                     } label: {
+                        Circle()
+                            .frame(width: 80, height: 80)
+                            .foregroundColor(Color("Color"))
+                            .overlay(
                         Image(systemName: "arrow.counterclockwise")
-                            .font(.system(size: 30))
-                            .foregroundColor(Color.red)
+                            .font(.system(size: 35))
+                            .foregroundColor(Color.white)
+                        )
                     }
-                    Spacer()
-                    Spacer()
-                    Spacer()
-                }
+                   
                 
-                Spacer()
+                
+                }
+              
+                
+                
                 
             }
         }
@@ -113,7 +140,7 @@ struct ExercisesView: View {
 
 struct ExercisesView_Previews: PreviewProvider {
     static var previews: some View {
-        ExercisesView(exer: Casual[0])
+        ExercisesView(exer: Bell[0], str: Casual[0])
         
        
     }
