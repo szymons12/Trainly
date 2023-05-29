@@ -34,7 +34,7 @@ struct ExercisesView: View {
                         .font(.custom("Raleway-Medium", size: 45))
                         .foregroundColor(Color("Color"))
                     Spacer().frame(width: 140)
-                }
+                } //  Exit Button
                 
                     
               

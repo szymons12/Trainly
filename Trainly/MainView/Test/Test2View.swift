@@ -6,24 +6,24 @@
 //
 
 import SwiftUI
+import FirebaseStorage
+import SDWebImageSwiftUI
 
 struct Test2View: View {
+   var imageUrl: BellyEx
     var body: some View {
-        ZStack{
-            Color("Back").ignoresSafeArea()
-            
-            RoundedRectangle(cornerRadius: 20)
-                .frame(width: 200, height: 200)
-                .background(Color.white)
-                .opacity(0.2)
-                
-
-                                 }
-    }
+        
+    
+        WebImage(url: URL(string: imageUrl.images))
+            .resizable()
+            .indicator(.activity)
+            .scaledToFit()
+        
+        
 }
-
+}
 struct Test2View_Previews: PreviewProvider {
     static var previews: some View {
-        Test2View()
+        Test2View(imageUrl: Bell[3])
     }
 }

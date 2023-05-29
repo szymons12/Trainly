@@ -20,9 +20,9 @@ var Casual: [CasualTraining] = [
 
 var Bell: [BellyEx] = [
 
-BellyEx(exercise: "Plank", images: "plank", time: 30),
-BellyEx(exercise: "Bridge", images: "bridge", time: 30),
-BellyEx(exercise: "Revers", images: "revers", time: 30),
-BellyEx(exercise: "Reversecrunches", images: "reversecrunches", time: 30)
+BellyEx(exercise: "Plank", images: "https://firebasestorage.googleapis.com/v0/b/trainly-a2792.appspot.com/o/deska.gif?alt=media&token=3e47a5f7-96ee-4da4-92f3-4a83c63b9f3d", time: 30),
+BellyEx(exercise: "Bridge", images: "https://firebasestorage.googleapis.com/v0/b/trainly-a2792.appspot.com/o/mostek.gif?alt=media&token=f4e639f5-649d-467a-beee-ff619326c198", time: 30),
+BellyEx(exercise: "Revers", images: "https://firebasestorage.googleapis.com/v0/b/trainly-a2792.appspot.com/o/revers.gif?alt=media&token=386f9c2a-e19f-4b45-889a-d42aad60049f", time: 30),
+BellyEx(exercise: "Reversecrunches", images: "https://firebasestorage.googleapis.com/v0/b/trainly-a2792.appspot.com/o/reversecrunches.gif?alt=media&token=1ea68a39-d852-49eb-aae5-8919f446678b", time: 30)
 
 ]

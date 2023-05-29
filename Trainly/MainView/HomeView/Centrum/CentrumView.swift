@@ -11,21 +11,26 @@ struct CentrumView: View {
     @State var show1 = true
     @State var show2 = false
     @State var show3 = false
+    @State var show4 = false
     var body: some View {
  
     
                 VStack(){
+                    ScrollView(.horizontal)
+                       {
                     HStack{
+                     
                         Button {
                             self.show1 = true
                             self.show2 = false
                             self.show3 = false
+                            self.show4 = false
                         } label: {
                             Image( "fire")
                                 .renderingMode(.template)
                                 .foregroundColor(Color("Color"))
                                 .font(.title)
-                            .frame(width: 110, height: 45)
+                            .frame(width: 80, height: 45)
                             .background(Color.white)
                             .cornerRadius(20)
                             
@@ -35,9 +40,10 @@ struct CentrumView: View {
                             self.show1 = false
                             self.show2 = true
                             self.show3 = false
+                            self.show4 = false
                         } label: {
                             RoundedRectangle(cornerRadius: 20)
-                                .frame(width: 110, height: 45)
+                                .frame(width: 80, height: 45)
                                 .foregroundColor(Color("Color-1"))
                                 .overlay(
                                     HStack{
@@ -58,6 +64,7 @@ struct CentrumView: View {
                             self.show1 = false
                             self.show2 = false
                             self.show3 = true
+                            self.show4 = false
                         } label: {
                             RoundedRectangle(cornerRadius: 20)
                                 .frame(width: 110, height: 45)
@@ -78,8 +85,25 @@ struct CentrumView: View {
                                         .font(.title)
                                 )
                         }
-                    
-                    }
+                        
+                        Button {
+                            self.show1 = false
+                            self.show2 = false
+                            self.show3 = false
+                            self.show4 = true
+                        } label: {
+                            RoundedRectangle(cornerRadius: 20)
+                                .frame(width: 50, height: 45)
+                                .foregroundColor(Color.white)
+                                .overlay(
+                                    Image(systemName: "heart.fill")
+                                        .foregroundColor(Color.red)
+                                        .font(.title)
+                                )
+                        }
+                        
+                        } // scrollView
+                    } // HStack
                     
                     if show1 {
                         SlideView()
@@ -93,6 +117,11 @@ struct CentrumView: View {
                     }
                     
                     if show3 {
+                        SlideView()
+                            .frame(width: 350, height: 346)
+                    }
+                    
+                    if show4 {
                         SlideView()
                             .frame(width: 350, height: 346)
                     }
