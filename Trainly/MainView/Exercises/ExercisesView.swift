@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import FirebaseStorage
+import SDWebImageSwiftUI
 
 struct ExercisesView: View {
     @Environment(\.presentationMode) var presentationMode
@@ -15,6 +17,8 @@ struct ExercisesView: View {
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     @State var countDownTimer: Int = 0
     @State var buttonText = Image(systemName: "arrowtriangle.right.circle")
+    @State var buttonNext = false
+    @State var cos: Int = 0
     
     var body: some View {
         ZStack{
@@ -36,8 +40,9 @@ struct ExercisesView: View {
                     Spacer().frame(width: 140)
                 } //  Exit Button
                 
+             
                     
-              
+                 
                 
                 Text(exer.exercise)
                     .font(.title)
@@ -46,21 +51,13 @@ struct ExercisesView: View {
                 Spacer()
                     .frame(width: 20, height: 20)
                 
-                Image(exer.images)
+                    WebImage(url: URL(string: exer.images))
                     .resizable()
                     .frame(width: 350, height: 346)
                     .cornerRadius(20)
                     .shadow(color: Color("Color-3"), radius: 10, x: 10, y:10)
              Spacer()
                     .frame(width: 20, height: 20)
-                
-                
-                
-                
-                       
-                    
-                    
-                    
                 
                     
                     RoundedRectangle(cornerRadius: 20)
@@ -69,6 +66,8 @@ struct ExercisesView: View {
                         .shadow(color: Color("Color-1"), radius: 10, x: 1, y: 1)
                     .frame(width: 150, height: 80)
                         .overlay(
+                            
+                            
                 Text("\(countDownTimer)").onReceive(timer) { _ in
                     if countDownTimer > 0 && timerRunning {
                         countDownTimer -= 1
@@ -82,25 +81,34 @@ struct ExercisesView: View {
                 
                 )// overlay
                 
+               
+                
                 HStack() {
+                   
                     
                     Spacer().frame(width: 90)
+                    
+           
+                   
                     Button {
-                        if timerRunning == false {
+                        if countDownTimer == 0 {
+                            buttonText = Image(systemName: "square.and.arrow.up")
+//                            cos = Casual.firstIndex(of: str)
+                        }
+                        
+                        else if timerRunning == false {
                             timerRunning = true
                             buttonText = Image(systemName: "pause.circle")
                             
                         }
-                        
-                        else if countDownTimer == 0 {
-                            buttonText = Image(systemName: "chevron.forward")
+                        else  {
+                            buttonText = Image(systemName: "arrowtriangle.right.circle")
+                            timerRunning = false
                                 
                         }
-                        else {
-                            timerRunning = false
-                            buttonText = Image(systemName: "arrowtriangle.right.circle")
-                            
-                        }
+                        
+                         
+                        
                     } label: {
                         Text(buttonText)
                             .font(.system(size: 140))
@@ -108,7 +116,11 @@ struct ExercisesView: View {
                             
                             
                     }
-                   
+                    
+                        
+                    
+                    
+                    
                     
                     Button {
                         countDownTimer = exer.time
@@ -124,10 +136,11 @@ struct ExercisesView: View {
                             .foregroundColor(Color.white)
                         )
                     }
-                   
+                    }
                 
                 
-                }
+                
+                
               
                 
                 
@@ -139,7 +152,6 @@ struct ExercisesView: View {
     func setCountDownTimer() {
         countDownTimer = exer.time
     }
-}
 
 
 struct ExercisesView_Previews: PreviewProvider {
@@ -148,4 +160,5 @@ struct ExercisesView_Previews: PreviewProvider {
         
        
     }
+}
 }

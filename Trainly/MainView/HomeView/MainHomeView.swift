@@ -22,7 +22,7 @@ struct MainHomeView: View {
                 Spacer().frame(height:30)
                 HStack(spacing: 50){
                     ShopIcon()
-
+ 
                     StatsIcon()
                     
                 }

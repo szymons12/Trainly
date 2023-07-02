@@ -20,7 +20,7 @@ struct TaskBar: View {
             
             switch selectIndex{
             case 0:
-                MainHomeView()
+                ExercisesView(exer: Bell[0], str: Casual[0])
             case 1:
                 MainHomeView()
             case 2:

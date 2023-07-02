@@ -41,3 +41,21 @@ class BellyEx: Identifiable {
     }
 }
 
+class ShopEx: Identifiable {
+    var id = UUID()
+    var exercise: String
+    var image: String
+    var lvl: Int
+    var time: Int
+    var cost: Int
+    var point: Int
+    
+    init(exercise: String, image: String, lvl: Int, time: Int, cost: Int, point: Int){
+        self.exercise = exercise
+        self.image = image
+        self.lvl = lvl
+        self.time = time
+        self.cost = cost
+        self.point = point
+    }
+}
