@@ -14,10 +14,16 @@ struct Test2View: View {
     var body: some View {
         
     
-        WebImage(url: URL(string: imageUrl.images))
-            .resizable()
-            .indicator(.activity)
-            .scaledToFit()
+        ZStack {
+            VStack {
+                WebImage(url: URL(string: imageUrl.images))
+                    .resizable()
+                    .indicator(.activity)
+                .scaledToFit()
+                 
+                Text("Blelele")
+            }
+        }
         
         
 }
